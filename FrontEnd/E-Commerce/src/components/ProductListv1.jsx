@@ -18,7 +18,7 @@ function ProductList() {
 
         }
         catch(err){
-         console.log(err,"hello i am error")
+         console.log(err,"hello i am errors")
         }
 
     }
