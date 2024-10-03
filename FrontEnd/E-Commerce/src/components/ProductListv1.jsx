@@ -13,12 +13,12 @@ function ProductList() {
     async function getProducts(){
         try{
             const productsdata=await Products()
-            // console.log(productsdata)
+            console.log(productsdata)
             dispatch(productlist(productsdata))
 
         }
         catch(err){
-         console.log(err)
+         console.log(err,"hello i am errors")
         }
 
     }
